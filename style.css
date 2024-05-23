@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.card {
+    font-family: inherit;
+    margin-top: 3rem;
+    width: 30%;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.card-element h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-style: inherit;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none
+}
+
+main button {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: rgb(0, 179, 0);
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+main button:hover {
+    background-color: rgb(0, 150, 0);
+}
+
+.result {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    
+}
+
+.todo-container {
+    margin-top: 10px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+.del-btn {
+    padding: 0 0.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.done-btn {
+    padding: 0 0.5rem;
+    background-color: rgb(0, 201, 0);
+    color: white;
+    border: none;
+}
